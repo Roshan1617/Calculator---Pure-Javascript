@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magic Calculator</title>
+  <link id="style" rel="stylesheet" href="./Styles/light - style.css" />
+  <link rel="icon" href="./Assets/calculator.svg">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="calc">
+      <div class="row row-1">
+        <div class="item heading">
+          <h1>Calculator</h1>
+        </div>
+        <div class="item">
+          <a href="https://github.com/Roshan1617/Calculator">
+            <img id="github-logo" src="./Assets/github - light.svg" alt="">
+          </a>
+          <button class="mode-lg" onclick=changeMode()>
+            <img id="mode-logo" src="./Assets/day - mode.svg" alt="">
+          </button>
+        </div>
+      </div>
+      <div class="row row-2">
+        <input type="text" id="inputBox">
+        <input id="ce-btn" type="button" value="CE" onclick=clearBox()>
+      </div>
+      <div class="row row-3">
+        <input type="button" value="1" onclick=updateInput(value)>
+        <input type="button" value="2" onclick=updateInput(value)>
+        <input type="button" value="3" onclick=updateInput(value)>
+        <input type="button" value=" + " onclick=updateInput(value)>
+      </div>
+      <div class="row row-4">
+        <input type="button" value="4" onclick=updateInput(value)>
+        <input type="button" value="5" onclick=updateInput(value)>
+        <input type="button" value="6" onclick=updateInput(value)>
+        <input type="button" value=" - " onclick=updateInput(value)>
+      </div>
+      <div class="row row-5">
+        <input type="button" value="7" onclick=updateInput(value)>
+        <input type="button" value="8" onclick=updateInput(value)>
+        <input type="button" value="9" onclick=updateInput(value)>
+        <input type="button" value=" * " onclick=updateInput(value)>
+      </div>
+      <div class="row row-6">
+        <input type="button" value="." onclick=updateInput(value)>
+        <input type="button" value="0" onclick=updateInput(value)>
+        <input id="eq-btn" type="button" value="=" onclick=equalBtn()>
+        <input type="button" value=" / " onclick=updateInput(value)>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="./Scripts/App.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+# README
+
+This is a README file for the GitHub repository containing the provided HTML code. It provides an overview of the repository and its contents.
+
+## Repository Contents
+
+- **index.html**: The main HTML file that represents a magic calculator interface.
+- **Styles/light-style.css**: The CSS file that provides styling for the magic calculator interface in light mode.
+- **Assets/calculator.svg**: An SVG image file representing the calculator icon.
+- **Assets/github-light.svg**: An SVG image file representing the GitHub logo.
+- **Assets/day-mode.svg**: An SVG image file representing a day mode icon.
+
+## Description
+
+This repository contains a basic calculator interface implemented using HTML, CSS, and SVG images. The calculator allows users to perform simple mathematical calculations. The interface is designed with a light color scheme and includes buttons for numbers, mathematical operators, and other functionalities.
+
+## Usage
+
+You can clone or download this repository to your local machine and open the `index.html` file in a web browser to view and interact with the calculator interface. The calculator provides a simple user interface for performing calculations.
+
+## Contributions
+
+Contributions to this repository are welcome. If you find any issues or have suggestions for improvements, feel free to submit a pull request or open an issue in the repository. Your contributions will be greatly appreciated.
+
+## Acknowledgements
+
+- The calculator interface design and functionality were implemented based on common web development practices and principles.
+- The SVG images used in the interface were sourced from external repositories, as indicated in the respective file names.
+
+Please feel free to explore the code, make modifications, and use it as a starting point for your own projects.
